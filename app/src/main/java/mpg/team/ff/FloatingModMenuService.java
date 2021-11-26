@@ -112,7 +112,7 @@ public class FloatingModMenuService extends Service {
     public void onCreate() {
         super.onCreate();
         //A little message for the user when he opens the app
-        //Toast.makeText(this, Toast(), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Cracked By Anmol Singh", Toast.LENGTH_LONG).show();
         //Init Lib
 //String android_id = android.provider.Settings.Secure.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
 //String device_id = md5(android_id).toUpperCase();
@@ -326,7 +326,7 @@ public class FloatingModMenuService extends Service {
                 view2.setVisibility(View.VISIBLE);
                 view2.setAlpha(0.95f);
                 view3.setVisibility(View.GONE);
-                Toast.makeText(view.getContext(), "Masterpiece GaminG", Toast.LENGTH_LONG).show();
+                Toast.makeText(view.getContext(), "Cracked By Anmol Singh", Toast.LENGTH_LONG).show();
                 playSound(Uri.fromFile(new File(cacheDir + "Back.ogg")));
             }
         });
